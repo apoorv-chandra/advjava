@@ -21,7 +21,7 @@ public class RedundantToDinstict {
 		 int i=0;
 /*		 Map<String, Integer> cards2Length = (Map<String, Integer>) al.stream()
 				 .collect(Collectors.toMap(Function.identity(),
-						 String::length, (e1, e2)-> +i, HashMap::new)); 
+						 String::length, (e1, e2)-> e1, HashMap::new)); 
 		 System.out.println("map: " + cards2Length);
 		 
 */

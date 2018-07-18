@@ -22,13 +22,6 @@ public class ArrayListToArray {
 	        {
 	        	  System.out.println(str1[j]);			
 	        }
-	      Map<String, Integer> stringtohashmap = new LinkedHashMap<String, Integer>();
-	      int i=0;
-	    		  for (String string : str) 
-	    		  {
-	    			  stringtohashmap.put(string, i++);
-			    		}
-	    		  System.out.println(stringtohashmap);
 	    		  //Counting frequency of words in string array
 	    		  Map<Object, Long> freqCaseIn = Arrays.stream(str)
 	    				  .collect(Collectors.groupingBy(String::toLowerCase, Collectors.counting()));

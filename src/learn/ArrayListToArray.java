@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 public class ArrayListToArray {
 	 public static void main(String[] args) {
 		 String[] str = {"abc", "dcs", "Abg","abc","hdf"};
+		 String[] str2 = {"This is new string"};
 	        List<String> list = new ArrayList<String>();
 	        
 	        list.add("array");
@@ -26,6 +27,8 @@ public class ArrayListToArray {
 	    		  Map<Object, Long> freqCaseIn = Arrays.stream(str)
 	    				  .collect(Collectors.groupingBy(String::toLowerCase, Collectors.counting()));
 	    		  System.out.println(freqCaseIn);
+	 
+	    		 
 	 } 
 	
 }

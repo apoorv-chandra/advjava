@@ -1,7 +1,6 @@
 package learn;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -9,8 +8,7 @@ import java.util.stream.Collectors;
 public class ArrayListToArray {
 	 public static void main(String[] args) {
 		 String[] str = {"abc", "dcs", "Abg","abc","hdf"};
-		 String[] str2 = {"This is new string"};
-	        List<String> list = new ArrayList<String>();
+		 List<String> list = new ArrayList<String>();
 	        
 	        list.add("array");
 	        list.add("arraylist");

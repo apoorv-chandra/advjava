@@ -26,7 +26,7 @@ public class ClickAll {
 		 {
 		allelements.get(i).click();
 		System.out.println("CLicked on->" + allelements.get(i));
-		//break;
+	
 		/*try {
 			Thread.sleep(10000);
 			System.out.println("clicked and waiting for load");

@@ -21,8 +21,8 @@ public class ClickAll {
 		// TODO Auto-generated catch block
 		e1.printStackTrace();
 	}
-	List<WebElement> allelements = driver.findElements(By.tagName("a"));
-	    for(int i=0;i<allelements.size();i++)
+	List<WebElement> allelements = driver.findElements(By.xpath("//img[@src=\"https://hp.azureedge.net/Assests/images/logo-298x90.png\"]"));
+	    for(int i=1;i<allelements.size();i++)
 		 {
 		allelements.get(i).click();
 		System.out.println("CLicked on->" + allelements.get(i));
